@@ -1,2 +1,15 @@
 Review from earlier in the week, user management, user permsissions and package manadgement. 
 Today our lecture started with process management. 
+Procesess are created by strip file.
+Iniitiated by the user. D
+Process herediatry - all processes are directly or indirectly loaded by one single process called systemd
+Process ID(identifiers) - no two processes running on host at the same time.
+To kill a process you need to know the PID number, command "kill"
+Top- displays processor activity and tasks managed by kernel in real-time, continously updated view of running process.
+PS- info on current running process with PIDS
+States of processes, Running, Sleeping,T Stop, Zombie "child"
+Job manadgement commands running in bash, run as a job, one command may cause several process to run. 
+A job can be a single process or multiple child processes. Users own jobs and the kernel own processes. 
+Ctrl+z - pause a job temporatily and sneds to backgrounds
+Job ID number is assigned to the proces
+Priority number, negative number means high proiority, poositve (high number) number low priority. 
