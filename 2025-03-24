@@ -1,0 +1,10 @@
+Today were starting with Networking. Wired vs Wireless? Digital data to Digital Signal ~ Wired 
+Digital Data to wireless, is an analog signal. 
+Went over, k-bytes,M-bytes,G-bytes, .....Frequency vs amplitude ..Frequence = Height, amplitude = Flow 
+Mr Darryl chart= 128,64,32,16,8,4,2,1 
+Converting Dotted decimal to Binary
+Converting Binary number to dotted decimal.....REMEMEBER MR.Darryls chart. You need to know it. 128/128,64/92/,32/224,16/240,8/248,4/252,2/252,1/255
+The OSI layer model, Please,Do,Not,Throw,Sausage,Pizza,Away.. A way to remember the OSI model. 
+We talked about Bridges,acesss point, physical address, 
+Routers= route packets at the network layer
+Transport layer, reliablity =TCP is reliable and connection-oreinted. 
