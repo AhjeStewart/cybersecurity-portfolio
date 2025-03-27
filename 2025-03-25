@@ -1,0 +1,13 @@
+Today we are doing a continuation of networking. 
+Ipv4 vs Ipv6... Ipv4= 32 bits...Ipv6= 128 bits..
+DNS (domain name server)translates domain name to IP addresses. 
+We learned in windoes its ipconfig, but in Linus its ifconfig
+IWconfig provdies wireless NIC configuration. 
+nmcli aids in the proper configuration of IP information....
+DHCP- assigns IP addresses, subnet mask...default gateway- Router, firewall, Nat...Connects either wired or wireless. DHCP server(me) DNS server.
+DORA (Discover, offer, request, Acknowledge) 
+Windows..ipconfig /realease..It will release all the info the server gave you.
+To get it back you will type in ipcongfig /renew 
+Domain name to an IP address
+10,172,192 means it is a private network, 205.251.242.103 is an example of a public network. 
+host
