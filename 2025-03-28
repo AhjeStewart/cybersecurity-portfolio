@@ -1,0 +1,20 @@
+Today is friday, 3 days before the test. So it will be alot of review and preperation. 
+A firewall is a filter, filter incoming and outgoing traffic. Blocks unwanted traffic. Filters an IP address, at the network layer. 
+Access Control list, it allows permissions. Ensures only authorized devices and users can access the network.
+Host Based Firewall, software firewall that is installed on a computer, protects that computer only. 
+Network base firewall, protects an entire network. Tracks and logs network traffic for analysis, helping to identify suspicious activity.
+SOHO- Small office, home office
+Proxy firewall- is a type of network security system that filters requests and data at the application layer of the OSI model
+Offers a high level of security by deeply analyzing traffic.
+Masks internal IP addresses, enhancing privacy.
+Can enforce strict security policies at the application layer.
+Proxy firewall also has disadvantages,Typically slower than network-based firewalls because of the resource-intensive process of inspecting and relaying traffic. sudo
+Ip tables- firewall app that is pre-installed on most linux distros--chains-- string of rules that are found
+Sudo apt-get install iptables
+SSH - primary remote administration tool in linux is secure shell (SSH)..Provides authenticated and encrypted remote connectivity. You will have two keys, a public key and private key. 
+SSH has a port number thats 22
+Creating a back up copy of sshd_config....sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak...Im copying the first file to the 2nd file. 
+How to generate public & private keys in Linux...ssh-keygen
+netcat...used to test connections...Also used for Port scanning
+
+
