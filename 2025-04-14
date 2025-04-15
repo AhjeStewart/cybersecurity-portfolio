@@ -1,0 +1,14 @@
+This week we are starting Lesson 3, pertaining to Network Interface cards. 
+"Token-ring" conneting your devices to NICs.. Using a shielded twisted pair. "Token-bus" - history of ethernet 
+Getting rid of collissions by adding a switch.
+Bridge is used to connect two or more network segments. A bridge is smart. It transmits data frames. It resides in the data link layer on the OSI model. 
+Its main job is to filter, forward, or block data frames based on their MAC addresses. Essentially, a bridge enhances network efficiency by segmenting traffic and reducing collisions.
+A bridge is smarter than a hub, but simpier than a router. (2-4 ports, same amount of ports as a repeater)
+Router- A router connects different networks together, such as a home network to the internet, and manages traffic between them.
+Ethernet frame- Preamble, recipient, sender MAC, Type, Data, Pad, FCS
+~ preamble- A 64 bit information tellng the receiving NIC that a frame is coming and where the frame starts ~ SFD (start frane delimiter) Marks the end of the preamble and start of the frame.
+~ Destination address (6 bytes)- Mac address of the intended recipient. 
+~ Source Address - Mac address of the sender.
+~ Type/length (2 bytes) - Specifies the type of payload or length of the data.
+~ payload/data - The actual data being transmitted.
+~ FCS (frame check sequence, 4 bytes ) Error-checking CRC (cyclic redundancy check).
