@@ -1,0 +1,14 @@
+ethernet switches...number of ports 4,8,12,24,48,etc.....Unmanaged versus managed- Managed means the settings are configurable.
+Stackable- connnected together and operate as group....stack managed
+Modular versus fixed- Fixed- set number of ports are unchangable....modular- ports are changeable and ungradeable
+Desktop versus rack-mounted - desktop - small freestanding unit....Rack Mount- designed to fit in standard size rack 
+Port security- validates mac adresses of end systems....specify static list of allowed MACS...accept given number of sticky MACs..specify enforcement action for policy violation.
+Port Aggregation- Combine multiple links into a single logical channel.."Nic Teaming", "Bonding"..Combines links to increase bandwidth, provides redundacy. 
+Link Aggreation control Protocol (LACP) - detect configuration errors....recover from failure of one of the physical links.
+Port mirrioring.. copies all packets sent to one or more source ports to a mirror (or destination) port
+Collision Domain- is a network segment where data packets can "collide" when devices attempt to send data simultaneously. Collisions occur because the devices share the same communication medium. This is common in legacy network devices like hubs, which use half-duplex communication
+Collisions cause delays as the devices must retransmit the data.....Devices connected to a hub or a single Ethernet segment share the same collision domain.
+Broadcast Collision- is a network segment where broadcast frames (messages sent to all devices on the segment) are forwarded. Broadcast domains are used for communication like ARP requests, where all devices need to "listen."
+All devices receive the broadcast message....... Switches do not break up broadcast domains, but routers do. Routers ensure that broadcasts stay within their own network and aren't passed to other networks.
+POE- Power over ethernet...Allows one cable to transmit both data and power to network devices...Simplifies network installation and expansion...
+Delivers DC power to networking devices..Using CAT5 cable (frequencies) 
