@@ -1,0 +1,19 @@
+Firewalls- Traffic filter network system...allows or denies network traffic...processes traffic based on a set of rules...
+access control list.. controls traffic in both directions, it tells routers to allow or deny traffic. 
+Host based firewall...SOftware firewall that is installed on a computer....Network based firewall...Protects entire network, physical hardware and software.
+Port filtering/port blocking....Mac filitering- Filtering mac addresses.
+Application layer firewall...decides whether to drop or send a packet based on the apllication data available in the packet.."proxy firewalls"
+Can block internet access based on website or url.
+Unified threat manadgement (UTM)- single hardware/software povides multiple security funtions,makes managing network security much easier.
+Next Generation Firewall (NGFW)- combines a traditional firewall, with other network device functionalities like an application firewall.
+Firewall with application control, user-awareness and intrusion detection. 
+Proxy server- A proxy server is an intermediary system that sits between a client (your computer, smartphone, etc.) and the destination servers on the internet
+It hides your IP address, so you can surf the web annonomously. It also gives you a boost of speed. It doesnt encrypt data, so data can be intercepted by hackers, which is why you would need a VPN
+How does it work? When you make a request (for example, by typing a URL into your browser), that request is sent to the proxy server first. The proxy evaluates your request based on its configuration—it might log your activity, block access to certain sites, or cache data.
+Proxy server uses its own IP address and replace the client IP address. 
+Forward vs Reverse proxy server-  (Forward proxy)It is positioned between the client and the internet. Forward proxies are used by individuals or organizations to anonymize web traffic, bypass content filters, or control access to the internet.
+Reverse proxy sever- Unlike a forward proxy, a reverse proxy sits in front of web servers. It receives incoming requests from users and then forwards these requests to one or more backend servers. Reverse proxies are often used to improve load balancing, enhance security.
+Network types...PAN- personal area network- small network that is used for connecting devices like phones, and labtops, bluetooths, infared, NFC,
+LAN - Local area network a group of devices that are located in the same building... WAN- Wireless local area network.. Uses wireless communication instead of wired communication, its a WAN but without using cables.
+(CAN) Campus area network- Example a university operating on one big network. MAN- Metropolitan network, larger than a can, uses fiber optic cable, SAN-Storage area network
+Three-tiered Network Hierarchy- Scalable- the ability to provide growth, resilient- tolerate faulty devices and keep working.
