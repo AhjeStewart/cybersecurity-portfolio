@@ -1,0 +1,9 @@
+Broadcast domains- Logical group of devices on the same data link network can reach eachother. There are several types of broadcasts.
+Multiple broadcast domains..Two or more broadcast domains, typically they are seperated by a layer 3 device (routers 
+Number of broadcast domains increases. Number collision stays the same... Each swithc port is its own collision domain.
+V-lan (virtual private network)- is a logical subdivision of a physical network that groups together a collection of devices—even if those devices aren’t physically on the same segment—into a separate broadcast domain at the Data Link Layer (Layer 2) of the OSI model. 
+This abstraction allows network administrators to flexibly organize networks based on function, role, or security requirements rather than just physical location.
+Subnet vs VLANS- Subnets and VLANs are both methods for segmenting networks, but they operate at different layers of the OSI model and serve distinct purposes.
+Communictions between VLANS require a router. 
+Static VLAN vs Dynamic- Static VLANs are configured manually by network administrators, with each switch port permanently assigned to a specific VLAN. Once assigned, any device that plugs into that port becomes part of the designated VLAN.
+Dynamic VLAN- Dynamic VLANs automate the assignment process by using protocols and policies to determine the appropriate VLAN for a device or user. Rather than being tied to a physical port, the VLAN membership is determined at the time of authentication.
