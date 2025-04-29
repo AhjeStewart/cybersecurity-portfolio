@@ -1,0 +1,3 @@
+Dynamic Host Configuration protocol- Hosts automaticallly info from server. its alo a network management protocol that automates the assignment of IP addresses and other network configuration details to devices on a network.
+DHCP process- DHCP discover...device finds server for IP addresses and other IP config info..DHCP offer..server advertises offer of IP addresses and other info...DHCP request accepts the offer..DHCP ack server assigns and notifies device.
+DNS- Domain name system....user- enter the website cache
