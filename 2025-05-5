@@ -1,0 +1,18 @@
+Today we are taking a deep dive into Network security concepts. CIA triad..Confidentiality, Integrity, availiability,
+Non-repudiation- Non-repudiation is a security principle that ensures a person or entity cannot deny the authenticity of their actions or communications. It is crucial in digital transactions, legal agreements, and cybersecurity to prevent fraud or disputes.
+Threat- Potential harmful event....Vulernability- weakness in a system...Likelihood- probality/chance...Impact...Value of threat ($$$) risk- Likelihood and impact a threat will exploit vulnerability.
+GDPR- General Data Protection Regualtion...EU privacy...Collection/processing of personal data in the EU...Informed consent and data rights
+PCI DSS- Payment card industry data security standard.....Organizations handling credit card transactions, standards for protecting cardholder data.
+Risk Management- Identify,assess, and prioritize vulernabilities and threats...Security Controls- Used to mitigate risks.
+Cryptograophy- The study of hiding or decoding information/data.There is 3 types..Hash, encryption- Assymetric and Symmetric. 
+Hashing- Hashing is a cryptographic process that converts data into a fixed-length string (hash value) using a hash function. We use Hashing to verify the INTEGRITY of data being transferred..alpgorithms..Sha,MD5,
+Digital SIgnatures- Cryptographically signed documents that prove authenticity. 
+Encryption- converting human-readable data (plaintext) into a coded format (ciphertext) 
+Asymmetric Encryption- Uses two diffirent keys, public key ( encrypts data)...Private key ( decrypts data). Its slower, but more secure. RSA algorithm, DH (diffie Hellmen), elliptic curve cryptography.
+Symmetric Encryption- uses one key for decrpytion and encryption. Faster and more effeicint for large data encryption. RC5,AES,3DES,DES
+The public encryption method starts with the reciever not the sender. The reciever creates two keys, gives the sender the public key, and the reciever keeps the private key.
+Data in Transit, Data in Motion, Data at Rest.
+Data at rest- Encrypted hard drives... Data stored on a device or server that is not actively moving.
+Data in Transit- use TLS encryption...safeguards data as it moves across Internet...
+Data in use- Trusted Platform Modules(TPM)...data actively being processed by an application or system. Example: Data in RAM
+Zero Day-  security weakness/flaw in software, hardware, firmware unknown to the vendor,developer, or anyone capable of mitigating. A hacker discoveres a security flaw and tries to exploit it.
