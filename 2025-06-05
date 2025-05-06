@@ -1,0 +1,16 @@
+Today we are going to review Authentication.
+Access control list-  governs how subjects/principals may interact with objects..List of subjects and permissions.
+Access control lists are typically implemented with IAM.
+IAM (Identity & access management). Identification- A claim you are a person...Authentication- prove a claim..Authorization- grant permissions/rights to resources..Accounting- Audit, logging, resources used.
+Single Sign On- Authentication by one type of factor. Typically weaker. 
+Multi-Factor Authentication- Authentication by two or more factors...Two Factor authentication- authentication by two diffirent factors
+CAS ( Central Authentiction Server)- Organizations can have hundreds or thousands of servers, can manage public keys. Benefits- allows changes to be made instantly. Consistent authentication.
+Types of CAS- Kerberos, Radius, TACACS+, LDAP/ Active Directory PKI (digital Signatures) 
+LDAP (lightweight Directory Access Protocol)- allows users & apps to find info on peoples profiles, software, devices, and organizations within the network.
+LDAP doesnt provide musch security, the transmission are in plaintext.LDAP is widely used in corporate networks, cloud environments, and security infrastructures for managing identities and permissions
+RADIUS & TACACS- are authentication protocols used to verify users before granting access to network devices, VPNs, and enterprise systems.
+RADIUS( Remote Dial-In user service) - Primarily secures AAA, encrypts only the password. Example: A company uses RADIUS servers to authenticate employees connecting to Wi-Fi networks via username and password.
+TACACS (Terminal Access Controller Access-Control System) - Administrative access to network devices. Encrypts entire packet,A network engineer logs into a Cisco router, and TACACS+ verifies their credentials before granting access to device configurations.
+EAP (extensible Authenication protocol) - Flexible transport protocol used to carry authenitcation information.
+EAP is an authentication framework used in wireless networks and point-to-point connections to verify user identities securely. It is not a single authentication method but rather a protocol that supports multiple authentication mechanisms.
+EAP is essential for wifi security. 
