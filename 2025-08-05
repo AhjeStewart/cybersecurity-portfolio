@@ -1,0 +1,8 @@
+Today we are going to review Authorization.
+Authorization- Grants rights and permissions on networks, computers, and data. 
+Discretionary access control- access control based on owner of a resource, every resource has an owner. Example: owner creates a file or service and ownership can be assigned to another user
+RBAC( role based access control)- authorization is based on tasks the user or service must be able to perform. Set of rights/permissions.
+Set of groups- set of users, hybrid approach. 
+Defense in Depth- is a cybersecurity strategy that layers multiple security measures to protect systems and data. 
+Prevents single points of failure. Protects against evolving threats..Ensures compliance with security regulations. Strengthens resilience against cyberattacks.
+Endpoint security- securing endpoints/entry points of end-user devices,(desktops, laptops, and mobile devices) from being exploited by malicious actors and campaigns. 
